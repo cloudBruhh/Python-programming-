@@ -1,6 +1,8 @@
-# this is a TEST or Dummy python file
+""" this is a TEST or Dummy python file """
+
+
 def fact(n):
-    """Compute factorial of n (dummy implementation)."""
+    """Compute factorial of n(dummy implementation)."""
     if n == 0:
         return 1
     else:
@@ -8,7 +10,7 @@ def fact(n):
 
 
 def fib(n):
-    """Compute nth Fibonacci number (dummy implementation)."""
+    """Compute nth Fibonacci number(dummy implementation)."""
     if n <= 0:
         return 0
     elif n == 1:

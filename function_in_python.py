@@ -1,3 +1,6 @@
+"""A simple Python function to compute Fibonacci numbers and print them."""
+
+
 def fib(n):
     """Compute the nth Fibonacci number."""
     if n <= 0:
@@ -9,6 +12,7 @@ def fib(n):
 
 
 def main():
+    """Main function to execute the Fibonacci computation and printing."""
     n = int(input("Enter a number to compute its Fibonacci: "))
     for i in range(n):
         if i == n - 1:

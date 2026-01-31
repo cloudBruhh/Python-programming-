@@ -1,3 +1,4 @@
+'''A simple Tetris game implemented using Pygame.'''
 import random
 import pygame
 
@@ -46,8 +47,12 @@ COLORS = {
     'L': ORANGE
 }
 
+"""Class representing a Tetromino piece."""
+
 
 class Tetromino:
+    """Class representing a Tetromino piece."""
+
     def __init__(self):
         self.type = random.choice(list(SHAPES.keys()))
         self.shape = [row[:] for row in SHAPES[self.type]]
@@ -61,6 +66,8 @@ class Tetromino:
 
 
 class TetrisGame:
+    """Class representing the Tetris game."""
+
     def __init__(self):
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption('Tetris')
