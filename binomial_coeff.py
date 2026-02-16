@@ -10,7 +10,7 @@ def fact(n):
 
 def binomial_coeff(n, r):
     """Compute binomial coefficient C(n, r)."""
-    if (r == 0 or r == 1):
+    if r == 0 or r == 1:
         return 1
     else:
         return fact(n) // (fact(r) * fact(n - r))
