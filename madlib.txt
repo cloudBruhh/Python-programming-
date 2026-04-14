@@ -1,0 +1,14 @@
+The Weird Day
+
+This morning I woke up feeling very <adjective>. I ate <plural_noun> 
+for breakfast and ran to school on my pet <animal>.
+
+My teacher, Mr. <name>, told us to take out our <noun>. Then he 
+<verb_past_tense> on the desk and yelled "<exclamation>!"
+
+After school, I went to <place> with my friends. We ate <number> 
+pizzas and <verb_past_tense> all the way home.
+
+It was the most <adjective> day ever!
+
+THE END
